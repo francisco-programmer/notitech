@@ -303,7 +303,8 @@ body{
         height: auto;
     }
     .titulo-articulo{
-        font-size: 16px;
+        font-size: 13px;
+        line-height: 1.2;
     }
     .descripcion{
         width:100%;
@@ -341,5 +342,8 @@ body{
    }
    .titulo-articulo-card{
     font-size: 9.5px;
+   }
+   .publicado{
+    font-size: 10px;
    }
 }
