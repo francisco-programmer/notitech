@@ -76,26 +76,24 @@ body{
 }
 
 .articulos{
-    
     width: 920px;
     background-color: #fff;
     margin: auto;
     border-radius: 5px;
-    text-align: center;
     border-bottom: 1px solid  #EDEDED;
-    
     
 }
 .articulos-siguientes{
     width: 920px;
-    
     margin: 10px auto;
     border-radius: 5px;
     height: auto;
     display: flex;
     justify-content: center;
-    
-
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .titulo-articulo{
