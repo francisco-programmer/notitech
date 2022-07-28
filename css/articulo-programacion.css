@@ -299,13 +299,12 @@ body{
         margin: 0;
     }
    
-    aside{
-        width: 95%;
-    }
+    
     .titulo-articulo-card{
         font-size: 9.5px;
         text-align: center;
        }
+
        main{
         margin: 0;
         padding: 0;
