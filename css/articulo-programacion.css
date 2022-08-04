@@ -170,7 +170,15 @@ body{
     }
 
 }
-@media (max-width: 960px){
+@media (max-width: 1200px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 30px;
+        padding-right: 0px;
+      
+
+}
+@media (max-width: 970px){
     .checkbtn{
         display: block;
     }
