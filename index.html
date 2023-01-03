@@ -1,28 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
-    <title>Notiitech - Tecnology News</title>
+  
+  <meta charset="UTF-8">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+  <link href="/dist/output.css" rel="stylesheet">
+  <!-- <script type='text/javascript' src='//pl18215488.highcpmrevenuenetwork.com/8b/50/8e/8b508e0aed74d02286f52eaa419d9f6c.js'></script> -->
+  <title>NOTIITECH - Tecnology News</title>
 </head>
 <body>
-    <header>
-        <nav class="">
-            <div>
-                <p>Notiitech</p>
-            </div>
-            <div>
-                <ul>
-                    <li>Word</li>
-                    <li>git </li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+ <header>
+  <nav class="bg-white shadow-lg mx-auto ">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex justify-between">
+        <div class="flex space-x-7">
+          <div>
+            <!-- Website Logo -->
+            <a href="#" class="flex items-center py-4 px-2">
+              
+              <span class=" text-red-500 text-3xl font-poppins">NOTIITECH</span>
+            </a>
+          </div>
+          <!-- Primary Navbar items -->
+          <div class="hidden md:flex items-center space-x-1">
+            <a href="#home"
+              class="py-4 px-2  hover:scale-75 hover:bg-red-500 hover:text-white text-gray-500  font-poppins transition duration-300">Android</a>
+            <a href="#servicios"
+              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">IOS</a>
+              <a href="#servicios"
+              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Linux</a>
+              <a href="#servicios"
+              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Microsoft</a>
+              <a href="#servicios"
+              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Programming</a>
+              <a href="#servicios"
+              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">World!</a>
+          </div>
+        </div>
+        <!-- Secondary Navbar items -->
+
+        <!-- Mobile menu button -->
+        <div class="md:hidden flex items-center">
+          <button class="outline-none mobile-menu-button">
+            <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 " x-show="!showMenu" fill="none"
+              stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- mobile menu -->
+    <div class="hidden mobile-menu">
+      <ul class="flex flex-col">
+        <a href="#home" class="py-4 px-2  hover:scale-75 hover:bg-red-500 hover:text-white text-gray-500  font-poppins transition duration-300">Android</a>
+            <a href="#servicios" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">IOS</a>
+              <a href="#servicios" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Linux</a>
+              <a href="#servicios" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Microsoft</a>
+              <a href="#servicios"class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Programming</a>
+              <a href="#servicios"class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">World!</a>
+
+
+      </ul>
+    </div>
+    <script>
+      const btn = document.querySelector("button.mobile-menu-button");
+      const menu = document.querySelector(".mobile-menu");
+
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </nav>
+ </header>
+ <main>
+  <div class="grid sm:grid-cols-12 grid-cols-1 mt-5 gap-4">
+  <div class="col-span-6 sm:col-start-4 col-start-1">
+    <div class="flex flex-col">
+      <img src="./src/public/img/notionport.png" class="" />
+      <div class=" ">
+        <div class="flex gap-3 text-red-500 sm:text-base text-sm">
+        <p>World! </p><p>/</p><p> January 01, 2013</p>
+      </div>
+     <a class="text-red-500  hover:underline sm:text-2xl text-sm font-bold">Notion, the application will organize your life!</a>
+    </div>
+    </div> 
+  </div>
+</div>
+
+<div>
+
+</div>
+
+ </main>
+
+
+ <script>dayjs().format()</script>
+ 
 </body>
 </html>
