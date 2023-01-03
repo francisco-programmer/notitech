@@ -613,6 +613,10 @@ video {
   float: left;
 }
 
+.m-10 {
+  margin: 2.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -621,6 +625,11 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .mr-3 {
@@ -665,6 +674,42 @@ video {
 
 .ml-60 {
   margin-left: 15rem;
+}
+
+.-mt-8 {
+  margin-top: -2rem;
+}
+
+.-mt-11 {
+  margin-top: -2.75rem;
+}
+
+.-mt-16 {
+  margin-top: -4rem;
+}
+
+.-mt-24 {
+  margin-top: -6rem;
+}
+
+.-mt-9 {
+  margin-top: -2.25rem;
+}
+
+.-mt-6 {
+  margin-top: -1.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
 }
 
 .block {
@@ -741,6 +786,10 @@ video {
 
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-x-7 > :not([hidden]) ~ :not([hidden]) {
@@ -1028,6 +1077,10 @@ video {
     margin-left: 15rem;
   }
 
+  .sm\:ml-72 {
+    margin-left: 18rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1042,6 +1095,14 @@ video {
 
   .sm\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 
   .sm\:text-2xl {
