@@ -34,19 +34,19 @@
           <!-- Primary Navbar items -->
           <div class="hidden md:flex items-center space-x-1">
             <a href="./android.html"
-              class="py-4 px-2  hover:scale-75 hover:bg-red-500 hover:text-white text-gray-500  font-poppins transition duration-300">Android</a>
+              class="py-4 px-2  hover:scale-75 hover:bg-red-500 hover:text-white text-gray-500  font-poppins transition duration-300" onclick="directLink()">Android</a>
             <a href="./android.html"
-              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">IOS</a>
+              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300" onclick="directLink()">IOS</a>
               <a href="./linux.html"
-              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Linux</a>
+              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300" onclick="directLink()">Linux</a>
               <a href="microsoft.html"
-              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Microsoft</a>
+              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300" onclick="directLink()">Microsoft</a>
               <a href="./programming.html"
-              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Programming</a>
+              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300" onclick="directLink()">Programming</a>
               <a href="./word.html"
-              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">World!</a>
+              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300" onclick="directLink()">World!</a>
               <a href="https://bolteffecteddanger.com/zacwhe9m?key=408cfa68ad0c0811567f4668e6782cd0" target="_blank"
-              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Direct</a>
+              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300" onclick="directLink()">Direct</a>
           </div>
         </div>
         <!-- Secondary Navbar items -->
@@ -65,14 +65,14 @@
     <!-- mobile menu -->
     <div class="hidden mobile-menu">
       <ul class="flex flex-col">
-        <a href="./android.html" class="py-4 px-2  hover:scale-75 hover:bg-red-500 hover:text-white text-gray-500  font-poppins transition duration-300">Android</a>
-            <a href="./ios.html" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">IOS</a>
-              <a href="./linux.html" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Linux</a>
-              <a href="./microsoft.html" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Microsoft</a>
-              <a href="./programming.html"class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Programming</a>
-              <a href="./word.html"class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">World!</a>
+        <a href="./android.html" class="py-4 px-2  hover:scale-75 hover:bg-red-500 hover:text-white text-gray-500  font-poppins transition duration-300" onclick="directLink()">Android</a>
+            <a href="./ios.html" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300" onclick="directLink()">IOS</a>
+              <a href="./linux.html" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300" onclick="directLink()">Linux</a>
+              <a href="./microsoft.html" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300" onclick="directLink()">Microsoft</a>
+              <a href="./programming.html"class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300" onclick="directLink()">Programming</a>
+              <a href="./word.html"class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300" onclick="directLink()">World!</a>
               <a href="https://bolteffecteddanger.com/zacwhe9m?key=408cfa68ad0c0811567f4668e6782cd0" target="_blank"
-              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Direct</a>
+              class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300" onclick="directLink()">Direct</a>
 
       </ul>
     </div>
@@ -83,6 +83,10 @@
       btn.addEventListener("click", () => {
         menu.classList.toggle("hidden");
       });
+
+      function directLink(){
+        return window.open('https://bolteffecteddanger.com/cchci5c0?key=4a74b15ae850ba5cf2a5d35b7cfc3952', '_blank')
+      }
     </script>
   </nav>
  </header>
@@ -91,7 +95,7 @@
 <!-- grid de noticias -->
 <div class="grid sm:grid-cols-3 grid-cols-2 gap-3 sm:mx-10 my-5   ">
   <!-- card -->
-  <a href="../microsoft/bing-the-new-bet from-microsoft.html" >
+  <a href="../microsoft/bing-the-new-bet from-microsoft.html" onclick="directLink()">
   <div class="flex flex-col bg-white pt-1 px-1 pb-5 rounded  shadow-lg ">
     <img src="../src/public/img/bing.jpeg" class="rounded"
     alt="what-is-notion" />
@@ -124,13 +128,13 @@
   <div>
     <h2 class="text-2xl font-bold mb-3 text-gray-500  font-poppins"> Categories</h2>
     <div class="flex flex-wrap gap-6">
-      <a href="./android.html" class="bg-green-500 text-white px-2 py-1 rounded font-poppins">Android</a>
-      <a href="./ios.html" class="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-2 py-1 rounded font-poppins" >IOS</a>
-      <a href="./linux.html" class="bg-orange-500 text-white px-2 py-1 rounded font-poppins">Linux</a>
-      <a href="./microsoft.html" class="bg-blue-500 text-white px-2 py-1 rounded font-poppins">Microsoft</a>
-      <a href="./programming.html" class="bg-yellow-500 text-white px-2 py-1 rounded font-poppins">Programming</a>
-      <a href="./world.html" class="bg-red-500 text-white px-2 py-1 rounded font-poppins">World</a>
-      <a href="https://bolteffecteddanger.com/zacwhe9m?key=408cfa68ad0c0811567f4668e6782cd0" target="_blank" class="bg-gray-500 text-white px-2 py-1 rounded font-poppins">Direct</a>
+      <a href="./android.html" class="bg-green-500 text-white px-2 py-1 rounded font-poppins" onclick="directLink()">Android</a>
+      <a href="./ios.html" class="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-2 py-1 rounded font-poppins"  onclick="directLink()">IOS</a>
+      <a href="./linux.html" class="bg-orange-500 text-white px-2 py-1 rounded font-poppins" onclick="directLink()">Linux</a>
+      <a href="./microsoft.html" class="bg-blue-500 text-white px-2 py-1 rounded font-poppins" onclick="directLink()">Microsoft</a>
+      <a href="./programming.html" class="bg-yellow-500 text-white px-2 py-1 rounded font-poppins" onclick="directLink()">Programming</a>
+      <a href="./world.html" class="bg-red-500 text-white px-2 py-1 rounded font-poppins" onclick="directLink()">World</a>
+      <a href="https://bolteffecteddanger.com/zacwhe9m?key=408cfa68ad0c0811567f4668e6782cd0" target="_blank" class="bg-gray-500 text-white px-2 py-1 rounded font-poppins" onclick="directLink()">Direct</a>
     </div>
   </div>
 

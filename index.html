@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <link href="/dist/output.css" rel="stylesheet">
-  <script type='text/javascript' src='//bolteffecteddanger.com/8b/50/8e/8b508e0aed74d02286f52eaa419d9f6c.js'></script>
   <link rel="icon" type="image/png" href="./src/public/icon/notitech.png" >
   <meta charset="UTF-8">
   <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -35,19 +34,19 @@
           </div>
           <!-- Primary Navbar items -->
           <div class="hidden md:flex items-center space-x-1">
-            <a href="./categorie/android.html"
+            <a href="./categorie/android.html" onclick="directLink()"
               class="py-4 px-2  hover:scale-75 hover:bg-red-500 hover:text-white text-gray-500  font-poppins transition duration-300">Android</a>
-            <a href="./categorie/ios.html"
+            <a href="./categorie/ios.html" onclick="directLink()"
               class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">IOS</a>
-              <a href="./categorie/linux.html"
+              <a href="./categorie/linux.html" onclick="directLink()"
               class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Linux</a>
-              <a href="./categorie/microsoft.html"
+              <a href="./categorie/microsoft.html"  onclick="directLink()"
               class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Microsoft</a>
-              <a href="./categorie/programming.html"
+              <a href="./categorie/programming.html" onclick="directLink()"
               class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Programming</a>
-              <a href="./categorie/word.html"
+              <a href="./categorie/word.html" onclick="directLink()"
               class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">World!</a>
-              <a href="https://bolteffecteddanger.com/zacwhe9m?key=408cfa68ad0c0811567f4668e6782cd0" target="_blank"
+              <a href="https://bolteffecteddanger.com/zacwhe9m?key=408cfa68ad0c0811567f4668e6782cd0" target="_blank" onclick="directLink()"
               class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Direct</a>
           </div>
         </div>
@@ -67,13 +66,13 @@
     <!-- mobile menu -->
     <div class="hidden mobile-menu">
       <ul class="flex flex-col">
-        <a href="./categorie/android.html" class="py-4 px-2  hover:scale-75 hover:bg-red-500 hover:text-white text-gray-500  font-poppins transition duration-300">Android</a>
-            <a href="./categorie/ios.html" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">IOS</a>
-              <a href="./categorie/linux.html" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Linux</a>
-              <a href="./categorie/microsoft.html" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Microsoft</a>
-              <a href="./categorie/programming.html"class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Programming</a>
-              <a href="./categorie/word.html"class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">World!</a>
-              <a href="https://bolteffecteddanger.com/zacwhe9m?key=408cfa68ad0c0811567f4668e6782cd0" target="_blank"
+        <a href="./categorie/android.html"  onclick="directLink()"  class="py-4 px-2  hover:scale-75 hover:bg-red-500 hover:text-white text-gray-500  font-poppins transition duration-300">Android</a>
+            <a href="./categorie/ios.html" onclick="directLink()" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">IOS</a>
+              <a href="./categorie/linux.html" onclick="directLink()" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Linux</a>
+              <a href="./categorie/microsoft.html" onclick="directLink()" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Microsoft</a>
+              <a href="./categorie/programming.html"   onclick="directLink()" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Programming</a>
+              <a href="./categorie/word.html" onclick="directLink()" class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">World!</a>
+              <a href="https://bolteffecteddanger.com/zacwhe9m?key=408cfa68ad0c0811567f4668e6782cd0" target="_blank" onclick="directLink()"
               class="py-4 px-2 text-gray-500  font-poppins hover:scale-75 hover:bg-red-500 hover:text-white  transition duration-300">Direct</a>
 
       </ul>
@@ -85,6 +84,11 @@
       btn.addEventListener("click", () => {
         menu.classList.toggle("hidden");
       });
+
+      function directLink(){
+        return window.open('https://bolteffecteddanger.com/cchci5c0?key=4a74b15ae850ba5cf2a5d35b7cfc3952', '_blank')
+      }
+
     </script>
   </nav>
  </header>
@@ -92,10 +96,10 @@
   <div class="grid sm:grid-cols-12 grid-cols-1 mt-5 gap-4 sm:mx-10">   
 
   <div class="col-span-6 sm:col-start-1 col-start-1 bg-white rounded p-3">
-    <a href="./world/what-is-notion.html">
+    <a href="./world/what-is-notion.html" onclick="directLink()">
     <div class="flex flex-col">
       <img src="./src/public/img/notionport.png" class="" 
-      alt="notion app-notion" />
+      alt="notion app-notion"  />
       <div class=" ">
         <div class="flex gap-3 text-gray-500 sm:text-base text-sm font-poppins">
         <p class="bg-red-500 px-1 rounded text-white">World!</p><p class="hover:underline"> January 05 2023</p>
@@ -112,7 +116,7 @@
   <p class="text-center text-3xl font-poppins underline bg-white">Last News!</p>
 
   <div class="my-5  gap-5 flex flex-col">    
-    <a href="./ios/this-presentation-by-steve-Jobs-changed-the-world.html">
+    <a href="./ios/this-presentation-by-steve-Jobs-changed-the-world.html" onclick="directLink()">
       <div class="flex bg-white p-2  gap-3">
         
           <img src="./src/public/img/steve.jpg"  class=" w-32 rounded animate-pulse"/> 
@@ -127,7 +131,7 @@
 
 
 
-    <a href="./microsoft/bing-the-new-bet from-microsoft.html">
+    <a href="./linux/frontier-the-super-computer.html" onclick="directLink()">
       <div class="flex bg-white p-2  gap-3">
         
           <img src="./src/public/img/frontier2.jpeg"  class=" w-32 rounded animate-pulse"/> 
@@ -142,7 +146,7 @@
 
 
 
-    <a href="./microsoft/bing-the-new-bet from-microsoft.html">
+    <a href="./microsoft/bing-the-new-bet from-microsoft.html" onclick="directLink()">
     <div class="flex bg-white p-2  gap-3">
       
         <img src="./src/public/img/bing.jpeg"  class=" w-32 rounded animate-pulse"/> 
@@ -175,7 +179,7 @@
 <!-- grid de noticias -->
 <div class="grid sm:grid-cols-4 grid-cols-2 gap-3 sm:mx-10 my-5   z-30">
   <!-- card -->
-  <a href="./programming/free-programming-courses-with-certificate.html">
+  <a href="./programming/free-programming-courses-with-certificate.html" onclick="directLink()">
   <div class="flex flex-col bg-white pt-1 px-1 pb-5 rounded  shadow-lg">
     <img src="./src/public/img/courses-prommaming-free.webp" class="rounded"
     alt="courses-prommaming-free" />
@@ -185,7 +189,7 @@
   </div>
 </a>
    <!-- card -->
-   <a href="./world/chatgpt-the-importance-of-this-ai-in-2023-and-in-the-world.html">
+   <a href="./world/chatgpt-the-importance-of-this-ai-in-2023-and-in-the-world.html" onclick="directLink()">
    <div class="flex flex-col bg-white pt-1 px-1 pb-5 rounded  shadow-lg">
     <img src="./src/public/img/OpenI-ChatGPT-technology-gee.webp" class="rounded"
     alt="courses-prommaming-free />
@@ -218,13 +222,13 @@
   <div>
     <h2 class="text-2xl font-bold mb-3 text-gray-500  font-poppins"> Categories</h2>
     <div class="flex flex-wrap gap-6">
-      <a href="./categorie/android.html" class="bg-green-500 text-white px-2 py-1 rounded font-poppins">Android</a>
-      <a href="./categorie/ios.html" class="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-2 py-1 rounded font-poppins" >IOS</a>
-      <a href="./categorie/linux.html" class="bg-orange-500 text-white px-2 py-1 rounded font-poppins">Linux</a>
-      <a href="./categorie/microsoft.html" class="bg-blue-500 text-white px-2 py-1 rounded font-poppins">Microsoft</a>
-      <a href="./categorie/programming.html" class="bg-yellow-500 text-white px-2 py-1 rounded font-poppins">Programming</a>
-      <a href="./categorie/word.html" class="bg-red-500 text-white px-2 py-1 rounded font-poppins">World</a>
-      <a href="https://bolteffecteddanger.com/zacwhe9m?key=408cfa68ad0c0811567f4668e6782cd0" target="_blank" class="bg-gray-500 text-white px-2 py-1 rounded font-poppins">Direct</a>
+      <a href="./categorie/android.html" class="bg-green-500 text-white px-2 py-1 rounded font-poppins" onclick="directLink()">Android</a>
+      <a href="./categorie/ios.html" class="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-2 py-1 rounded font-poppins" onclick="directLink()" >IOS</a>
+      <a href="./categorie/linux.html" class="bg-orange-500 text-white px-2 py-1 rounded font-poppins" onclick="directLink()">Linux</a>
+      <a href="./categorie/microsoft.html" class="bg-blue-500 text-white px-2 py-1 rounded font-poppins" onclick="directLink()">Microsoft</a>
+      <a href="./categorie/programming.html" class="bg-yellow-500 text-white px-2 py-1 rounded font-poppins" onclick="directLink()">Programming</a>
+      <a href="./categorie/word.html" class="bg-red-500 text-white px-2 py-1 rounded font-poppins" onclick="directLink()">World</a>
+      <a href="https://bolteffecteddanger.com/zacwhe9m?key=408cfa68ad0c0811567f4668e6782cd0" target="_blank" class="bg-gray-500 text-white px-2 py-1 rounded font-poppins" onclick="directLink()">Direct</a>
     </div>
   </div>
 
@@ -247,7 +251,6 @@
 
 
 
-<script type='text/javascript' src='//pl18220615.highcpmrevenuenetwork.com/ea/a5/89/eaa58934dd5b630b8299df6ada3bccd0.js'></script>
 <script src="./src/js/cookie.js"></script>
 
 </body>
